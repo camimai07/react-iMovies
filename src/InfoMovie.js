@@ -39,8 +39,7 @@ export function InfoMovie({movie, active =''}){
                 return (
                     <>
                     <h2>1h | 40min</h2>
-                    <p>info The tank
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae optio tenetur eveniet amet veniam corporis incidunt pariatur repellendus provident facilis, numquam sit? Nam nihil dignissimos est blanditiis cupiditate beatae officia?
+                    <p>Después de heredar misteriosamente una propiedad costera abandonada, Ben y su familia liberan accidentalmente una antigua criatura latente que aterrorizó toda la región, incluidos sus propios antepasados, durante generaciones.
                     </p>
                     </>
                     
