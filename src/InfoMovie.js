@@ -26,8 +26,7 @@ export function InfoMovie({movie, active =''}){
                 return (
                     <>
                     <h2>2019 - Acción/Ciencia ficción - 3h | 2min</h2>
-                    <p>Info Avengers-Endgame
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae optio tenetur eveniet amet veniam corporis incidunt pariatur repellendus provident facilis, numquam sit? Nam nihil dignissimos est blanditiis cupiditate beatae officia?
+                    <p>Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.
                     </p>
                     </>
                     
@@ -47,8 +46,7 @@ export function InfoMovie({movie, active =''}){
                 return (
                     <>
                     <h2>2023 - Ciencia ficción/Acción - 1h | 33min</h2>
-                    <p>info 65
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae optio tenetur eveniet amet veniam corporis incidunt pariatur repellendus provident facilis, numquam sit? Nam nihil dignissimos est blanditiis cupiditate beatae officia?
+                    <p>Tras sufrir un accidente y caer a un planeta desconocido, los supervivientes de la nave descubren que han llegado a la Tierra, pero hace 65 millones de años. Ahora, deben cruzar un territorio inhóspito, poblado de bestias prehistóricas, para salir.
                     </p>
                     </>
                     
