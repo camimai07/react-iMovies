@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-iMovies/static/css/main.25c47f85.css",
+    "main.css": "/react-iMovies/static/css/main.481e742c.css",
     "main.js": "/react-iMovies/static/js/main.11f96f57.js",
     "static/media/bg_Avenger_Endgame1.jpg": "/react-iMovies/static/media/bg_Avenger_Endgame1.8d7c8b3ee529cad5ebec.jpg",
     "index.html": "/react-iMovies/index.html",
-    "main.25c47f85.css.map": "/react-iMovies/static/css/main.25c47f85.css.map",
+    "main.481e742c.css.map": "/react-iMovies/static/css/main.481e742c.css.map",
     "main.11f96f57.js.map": "/react-iMovies/static/js/main.11f96f57.js.map"
   },
   "entrypoints": [
-    "static/css/main.25c47f85.css",
+    "static/css/main.481e742c.css",
     "static/js/main.11f96f57.js"
   ]
 }
