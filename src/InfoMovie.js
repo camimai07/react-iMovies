@@ -1,9 +1,20 @@
 
-
-export function InfoMovie({movie, active =''}){
-    const movies= (info) =>{
+export function trailerOn(){
+    let trailer = document.querySelector(".trailerON")
+    trailer.classList.toggle("active");
+    var trailer_thetank = "https://www.youtube.com/embed/pAxUj4mJthc?si=YCpLvILHyRL8IJuT?";
+    var trailer_avengersEndgame = "https://www.youtube.com/embed/TcMBFSGVi1c?si=sC26ecYb73-hkhvu";
+    var trailer_blackDemon = "https://www.youtube.com/embed/z1xJAyVKAPY?si=Zw8B6ASJkv9HyEF6";
+    var trailer_the65 = "https://www.youtube.com/embed/bHXejJq5vr0?si=WEhcjSnI6Btwwtb9";
+    
+}
+export function InfoMovie({movie, active ='', trailerMovie}){
+    
+    const movies = (info) =>{
         switch (movie) {
             case "the-little-mermaid":
+                trailerMovie = "https://www.youtube.com/embed/kpGo2_d3oYE?si=TSwa6jfQNC7hxWF-";
+
                 return (
                     <>
                     <h2>2023 - Fantasía/Musical - 2h | 15min</h2>
@@ -38,6 +49,7 @@ export function InfoMovie({movie, active =''}){
                     <h2>2023 -  Terror/Suspenso - 1h | 40min</h2>
                     <p>Después de heredar misteriosamente una propiedad costera abandonada, Ben y su familia liberan accidentalmente una antigua criatura latente que aterrorizó toda la región, incluidos sus propios antepasados, durante generaciones.
                     </p>
+                    
                     </>
                     
                     );
@@ -66,8 +78,9 @@ export function InfoMovie({movie, active =''}){
                 {movies()}
                 
                 
-                <div className="trailer">
+                <div className="trailer" onClick={trailerOn}>
                     <h3><i className="fa-solid fa-circle-play"></i> Ver trailer</h3>
+                    
                 </div>
             </div>
             

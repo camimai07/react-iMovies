@@ -1,11 +1,14 @@
 .contenedor-ppal{
     margin: 0;
-    width: 100%;
+    width: inherit;
     height: 100vh;
     display: flex;
     background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 
-    
 }
 .trailer{
     display: flex;
@@ -17,6 +20,7 @@
     padding:0 10px;
     height: 40px;
     margin-top: 20px;
+    // position: relative;
     @media (hover: hover){
         &:hover{
             background-color: black;
@@ -25,4 +29,29 @@
         }       
     }
     
+}
+.trailerON{
+    
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    z-index: 15;
+}
+.trailerON.active{
+    visibility: visible;
+
+}
+.close{
+    border: solid 2px yellow;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: -60px;
+    right: -50px;
+    cursor: pointer;
+    filter: invert(1);
+    img{
+        width: 100%;
+    }
 }

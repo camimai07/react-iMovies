@@ -98,6 +98,10 @@
     nav ul {
         gap: 15px;
     }
+    .trailerON{
+        width: 480px;
+  
+    }
     .contenedor-ppal{
         .texto{
             max-width: 500px ;
@@ -118,7 +122,14 @@
     
     
 }
+@media (max-width:600px){
+    .trailerON{
+        width: 350px;
+  
+    }
+}
 @media (max-width:500px){
+    
     .contenedor-ppal{
         .texto{
             max-width: 400px ;
@@ -140,6 +151,10 @@
 
 }
 @media (max-width:400px){
+    .trailerON{
+        width: 250px;
+  
+    }
     .contenedor-ppal{
         .texto{
             max-width: 400px ;
